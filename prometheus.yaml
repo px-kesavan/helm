@@ -4,14 +4,10 @@ metadata:
   annotations:
     meta.helm.sh/release-name: px-central
     meta.helm.sh/release-namespace: px-backup
-  creationTimestamp: "2026-01-06T07:36:17Z"
   generation: 1
   labels:
     app.kubernetes.io/managed-by: Helm
   name: px-backup-dashboard-prometheus
-  namespace: px-backup
-  resourceVersion: "26815545"
-  uid: 5670ad2c-588b-4ab4-9075-f6e61681b112
 spec:
   additionalAlertManagerConfigs:
     key: am-configs.yaml
